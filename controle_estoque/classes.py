@@ -32,12 +32,3 @@ class Estoque:
         for produto in self.produtos:
             produto.exibir_detalhes()
             
-
-produto1 = Produto("001", "Camiseta", 10)
-
-
-estoque = Estoque()
-
-estoque.cadastrar_produto(produto1)
-
-estoque.exibir_estoque()
